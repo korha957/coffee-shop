@@ -8,7 +8,6 @@ def calculate_total():
 
     return total
 
-
 def calculate_discount(total):
     if total > 1000000:
         discount = total * 0.10
@@ -16,7 +15,6 @@ def calculate_discount(total):
         discount = 0
 
     return discount
-
 
 def print_invoice():
     if len(orders) == 0:
